@@ -20,7 +20,7 @@ const connectDB = async()=>{
     }
 };
 
-app.get("/helth",(req, res)=>{
+app.get("/health",(req, res)=>{
     res.json({
         success:true,
         message:"Server is running"
